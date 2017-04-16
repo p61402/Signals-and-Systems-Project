@@ -272,6 +272,7 @@ y_coefficient_entry.grid(row=1, column=1)
 
 y_submit_button = \
     ttk.Button(y_frame, text="Add", width=6, command=lambda: add_y(y_coef)).grid(row=2, column=1)
+
 # input-area
 input_frame = ttk.LabelFrame(root, text="Input")
 input_frame.grid(row=4, column=0, columnspan=3, ipady=8)
